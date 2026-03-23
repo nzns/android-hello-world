@@ -1,4 +1,4 @@
-package com.shortcut.doubao;
+package com.sqisland.android.hello;
 
 import android.app.Activity;
 import android.content.Intent;
