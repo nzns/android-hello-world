@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
             intent.setComponent(new ComponentName("com.larus.nova", "com.larus.home.impl.alias.AliasActivity1"));
             
             // 对应截图里的：Uri Data
-            intent.setData(Uri.parse("sslocal://flow/realtime_chat?is_from_outer=true&conversation_id=409027298050"));
+            intent.setData(Uri.parse("sslocal://flow/realtime_chat?is_from_outer=true&conversation_id=38418527367140866"));
             
             // 确保每次点击都重新拉起，不留后台
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
